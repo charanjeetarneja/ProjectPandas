@@ -13,7 +13,7 @@ rulesdf=pd.read_csv("..\Data\\rules.csv")
 
 rodf=pd.read_csv("..\Data\\rules_output.csv")
 
-rulesdf.sort_values('RULE_RK',ascending=True, inplace=True)
+rulesdf.sort_values('RULE_RK', ascending=True, inplace=True)
 
 output=datadf.query('emp==-1')
 
