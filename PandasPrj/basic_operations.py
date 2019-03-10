@@ -7,11 +7,11 @@ def header(msg):
     print('-'*50)
     print(msg)
 
-datadf=pd.read_csv('C:\Data\PythonCode\Data\data.csv')
+datadf=pd.read_csv('..\Data\data.csv')
 
-rulesdf=pd.read_csv("C:\Data\PythonCode\Data\\rules.csv")
+rulesdf=pd.read_csv("..\Data\\rules.csv")
 
-rodf=pd.read_csv("C:\Data\PythonCode\Data\\rules_output.csv")
+rodf=pd.read_csv("..\Data\\rules_output.csv")
 
 rulesdf.sort_values('RULE_RK',ascending=True, inplace=True)
 
